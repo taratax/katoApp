@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A314741D1E227806003EC1DD /* katoApp.plist in Resources */ = {isa = PBXBuildFile; fileRef = A314741C1E227806003EC1DD /* katoApp.plist */; };
+		A35635341E21475F00B91C9F /* configureUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35635331E21475F00B91C9F /* configureUI.swift */; };
+		A35635381E2148BD00B91C9F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35635371E2148BD00B91C9F /* Model.swift */; };
+		A356353A1E2174B600B91C9F /* GenericVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35635391E2174B600B91C9F /* GenericVC.swift */; };
+		A369689C1E146CDE0075CB9E /* seeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A369689B1E146CDE0075CB9E /* seeViewCell.swift */; };
+		A36E215D1E144D3800C56018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E215C1E144D3800C56018 /* AppDelegate.swift */; };
+		A36E215F1E144D3800C56018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E215E1E144D3800C56018 /* ViewController.swift */; };
+		A36E21621E144D3800C56018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36E21601E144D3800C56018 /* Main.storyboard */; };
+		A36E21641E144D3800C56018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A36E21631E144D3800C56018 /* Assets.xcassets */; };
+		A36E21671E144D3800C56018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36E21651E144D3800C56018 /* LaunchScreen.storyboard */; };
+		A39288F71E33E12F003EF2A7 /* GenericNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39288F61E33E12F003EF2A7 /* GenericNavigation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A314741C1E227806003EC1DD /* katoApp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = katoApp.plist; sourceTree = "<group>"; };
+		A35635331E21475F00B91C9F /* configureUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = configureUI.swift; path = testmy_001/configureUI.swift; sourceTree = "<group>"; };
+		A35635371E2148BD00B91C9F /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = testmy_001/Model.swift; sourceTree = "<group>"; };
+		A35635391E2174B600B91C9F /* GenericVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenericVC.swift; path = testmy_001/GenericVC.swift; sourceTree = "<group>"; };
+		A369689B1E146CDE0075CB9E /* seeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = seeViewCell.swift; sourceTree = "<group>"; };
+		A36E21591E144D3800C56018 /* KATO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KATO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36E215C1E144D3800C56018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A36E215E1E144D3800C56018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = testmy_001/ViewController.swift; sourceTree = "<group>"; };
+		A36E21611E144D3800C56018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A36E21631E144D3800C56018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A36E21661E144D3800C56018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A36E21681E144D3800C56018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39288F61E33E12F003EF2A7 /* GenericNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericNavigation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A36E21561E144D3700C56018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A352492E1E28076B00C99242 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A39288F61E33E12F003EF2A7 /* GenericNavigation.swift */,
+				A36E215E1E144D3800C56018 /* ViewController.swift */,
+				A35635391E2174B600B91C9F /* GenericVC.swift */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A352492F1E2807A400C99242 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A35635371E2148BD00B91C9F /* Model.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A35249301E2807DE00C99242 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A35635331E21475F00B91C9F /* configureUI.swift */,
+				A369689B1E146CDE0075CB9E /* seeViewCell.swift */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A36E21501E144D3700C56018 = {
+			isa = PBXGroup;
+			children = (
+				A36E215B1E144D3800C56018 /* KATO */,
+				A36E215A1E144D3800C56018 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A36E215A1E144D3800C56018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A36E21591E144D3800C56018 /* KATO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A36E215B1E144D3800C56018 /* KATO */ = {
+			isa = PBXGroup;
+			children = (
+				A3DD2B361E2BA26400EA3CBA /* StoryBoards */,
+				A35249301E2807DE00C99242 /* View */,
+				A352492F1E2807A400C99242 /* Model */,
+				A352492E1E28076B00C99242 /* Controllers */,
+				A36E215C1E144D3800C56018 /* AppDelegate.swift */,
+				A314741C1E227806003EC1DD /* katoApp.plist */,
+				A36E21631E144D3800C56018 /* Assets.xcassets */,
+				A36E21681E144D3800C56018 /* Info.plist */,
+			);
+			name = KATO;
+			path = testmy_001;
+			sourceTree = "<group>";
+		};
+		A3DD2B361E2BA26400EA3CBA /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				A36E21601E144D3800C56018 /* Main.storyboard */,
+				A36E21651E144D3800C56018 /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A36E21581E144D3700C56018 /* KATO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A36E216B1E144D3800C56018 /* Build configuration list for PBXNativeTarget "KATO" */;
+			buildPhases = (
+				A36E21551E144D3700C56018 /* Sources */,
+				A36E21561E144D3700C56018 /* Frameworks */,
+				A36E21571E144D3700C56018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KATO;
+			productName = testmy_001;
+			productReference = A36E21591E144D3800C56018 /* KATO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A36E21511E144D3700C56018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.thegabrielk;
+				TargetAttributes = {
+					A36E21581E144D3700C56018 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8LWS7E47SS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A36E21541E144D3700C56018 /* Build configuration list for PBXProject "KATO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A36E21501E144D3700C56018;
+			productRefGroup = A36E215A1E144D3800C56018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A36E21581E144D3700C56018 /* KATO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A36E21571E144D3700C56018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36E21671E144D3800C56018 /* LaunchScreen.storyboard in Resources */,
+				A36E21641E144D3800C56018 /* Assets.xcassets in Resources */,
+				A36E21621E144D3800C56018 /* Main.storyboard in Resources */,
+				A314741D1E227806003EC1DD /* katoApp.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A36E21551E144D3700C56018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A356353A1E2174B600B91C9F /* GenericVC.swift in Sources */,
+				A35635381E2148BD00B91C9F /* Model.swift in Sources */,
+				A369689C1E146CDE0075CB9E /* seeViewCell.swift in Sources */,
+				A36E215F1E144D3800C56018 /* ViewController.swift in Sources */,
+				A39288F71E33E12F003EF2A7 /* GenericNavigation.swift in Sources */,
+				A35635341E21475F00B91C9F /* configureUI.swift in Sources */,
+				A36E215D1E144D3800C56018 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A36E21601E144D3800C56018 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A36E21611E144D3800C56018 /* Base */,
+			);
+			name = Main.storyboard;
+			path = testmy_001;
+			sourceTree = "<group>";
+		};
+		A36E21651E144D3800C56018 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A36E21661E144D3800C56018 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = testmy_001;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A36E21691E144D3800C56018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A36E216A1E144D3800C56018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A36E216C1E144D3800C56018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8LWS7E47SS;
+				INFOPLIST_FILE = testmy_001/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thegabrielk.testmy-001";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A36E216D1E144D3800C56018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8LWS7E47SS;
+				INFOPLIST_FILE = testmy_001/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thegabrielk.testmy-001";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A36E21541E144D3700C56018 /* Build configuration list for PBXProject "KATO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36E21691E144D3800C56018 /* Debug */,
+				A36E216A1E144D3800C56018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A36E216B1E144D3800C56018 /* Build configuration list for PBXNativeTarget "KATO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36E216C1E144D3800C56018 /* Debug */,
+				A36E216D1E144D3800C56018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A36E21511E144D3700C56018 /* Project object */;
+}
