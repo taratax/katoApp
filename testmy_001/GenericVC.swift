@@ -90,7 +90,7 @@ class GenericVC: UIViewController {
         imgView.backgroundColor = UIColor.white
         
         let myIdx = pctIdx % 4
-        //print("myIdx: \(myIdx)")
+        
         
         txtView.backgroundColor = UIColor(red: CGFloat(colorsSchm[myIdx]["r"]!), green: CGFloat(colorsSchm[myIdx]["g"]!),
                                           blue: CGFloat(colorsSchm[myIdx]["b"]!), alpha: CGFloat(colorsSchm[myIdx]["a"]!))
@@ -99,11 +99,6 @@ class GenericVC: UIViewController {
                                       blue: CGFloat(colorsSchm[myIdx]["b"]!), alpha: CGFloat(colorsSchm[myIdx]["a"]!))
         
         
-//        if tabNum == 3 && myIdx == 2 {
-//            let attributes : [String:AnyObject] = [NSForegroundColorAttributeName: txtView.textColor!, NSUnderlineStyleAttributeName: 1 as AnyObject]
-//            txtView.linkTextAttributes = attributes
-//
-//        }
         txtView.isScrollEnabled = false
         // print("helllooooo:  tabNum \(tabNum) pctIdx \(pctIdx)")
         let text = (textArray?[tabNum][pctIdx])! //as! String

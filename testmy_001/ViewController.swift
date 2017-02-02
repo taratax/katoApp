@@ -16,7 +16,6 @@ class ViewController: UITableViewController {
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
        
-        //print("preferredStatusBarStyle !!! ------------")
         return .lightContent
        
     }
@@ -97,7 +96,7 @@ class ViewController: UITableViewController {
 
  
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("here e1!!! \(indexPath.row)")
+        // print("here e1!!! \(indexPath.row)")
         
         cellNum = indexPath.row
         performSegue(withIdentifier: "SpodekSeg", sender: nil)
