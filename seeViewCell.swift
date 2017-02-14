@@ -42,7 +42,7 @@ class seeViewCell: UITableViewCell {
         myimageView.topAnchor.constraint(equalTo: titleLbl.bottomAnchor, constant: 0).isActive = true
         myimageView.leadingAnchor.constraint(equalTo: layoutMarginsGuide.leadingAnchor , constant: 0).isActive = true
         myimageView.trailingAnchor.constraint(equalTo: layoutMarginsGuide.trailingAnchor, constant: 0).isActive = true
-        myimageView.heightAnchor.constraint(equalTo: contentView.heightAnchor, multiplier: 0.90).isActive = true
+        myimageView.heightAnchor.constraint(equalTo: contentView.heightAnchor, multiplier: 1.0).isActive = true
         myimageView.contentMode = UIViewContentMode.scaleToFill
         
     

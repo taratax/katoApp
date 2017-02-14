@@ -35,7 +35,7 @@ class ViewController: UITableViewController {
         // tableView.register(seeViewCell.self, forCellReuseIdentifier: "seeViewCell")
         
         // print("In view didload 001 : \(tabBarItem.description)  glcounter \(glcounter)")
-        tabNum = (tabBarController?.selectedIndex)!
+            tabNum = (tabBarController?.selectedIndex)!
         // tabBarItem .selectedImage
     
         // print("In view didload 002 : \(tabNum)")
@@ -61,6 +61,9 @@ class ViewController: UITableViewController {
         
         //print("status bar color :  \(preferredStatusBarStyle.rawValue) ")
     view.backgroundColor = UIColor(red:0.20, green:0.62, blue:1.00, alpha:1.0)
+        //tableView.rowHeight = UITableViewAutomaticDimension
+        //tableView.estimatedRowHeight = 80
+        //tableView.rowHeight = 200
         
     }
     
