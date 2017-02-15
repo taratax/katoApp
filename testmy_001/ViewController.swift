@@ -32,14 +32,13 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
        glcounter = glcounter + 1
-        // tableView.register(seeViewCell.self, forCellReuseIdentifier: "seeViewCell")
+       
         
-        // print("In view didload 001 : \(tabBarItem.description)  glcounter \(glcounter)")
+      
             tabNum = (tabBarController?.selectedIndex)!
-        // tabBarItem .selectedImage
+     
     
-        // print("In view didload 002 : \(tabNum)")
-        //print("In view didload 003 : \(myarray[tabNum][tabNum])")
+       
         
         if (tabNum == 0) {
         composeStatusBar(title: "KATO" , vc: self)
@@ -59,11 +58,8 @@ class ViewController: UITableViewController {
         navigationController?.navigationBar.barStyle =  .blackTranslucent // this will give you a white status bar
 
         
-        //print("status bar color :  \(preferredStatusBarStyle.rawValue) ")
-    view.backgroundColor = UIColor(red:0.20, green:0.62, blue:1.00, alpha:1.0)
-        //tableView.rowHeight = UITableViewAutomaticDimension
-        //tableView.estimatedRowHeight = 80
-        //tableView.rowHeight = 200
+           view.backgroundColor = UIColor(red:0.20, green:0.62, blue:1.00, alpha:1.0)
+    
         
     }
     
@@ -71,15 +67,14 @@ class ViewController: UITableViewController {
         print ("about !!!")
     }
     
-//    override func viewDidAppear(_ animated: Bool) {
-//        composeStatusBar(title: myarray[cellNum] , vc: self )
-//    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as? seeViewCell
@@ -99,7 +94,7 @@ class ViewController: UITableViewController {
 
  
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        // print("here e1!!! \(indexPath.row)")
+        
         
         cellNum = indexPath.row
         performSegue(withIdentifier: "SpodekSeg", sender: nil)

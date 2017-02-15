@@ -34,7 +34,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z0v-fv-f9Y">
-                                            <rect key="frame" x="8" y="41" width="240" height="200"/>
+                                            <rect key="frame" x="8" y="41" width="240" height="300"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                     </subviews>
@@ -102,50 +102,6 @@
             <point key="canvasLocation" x="2885.507246376812" y="-276.35869565217394"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="wUf-ny-Qal">
-            <objects>
-                <viewController id="2tU-y5-2FO" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Sar-3f-dzj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="jiq-Yv-idM">
-                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jiq-Yv-idM" id="e8b-Ru-En1">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                    </tableView>
-                    <navigationItem key="navigationItem" id="cD9-pS-D0q"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="znT-FO-qMB" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2152" y="1468"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Tfs-Fh-s77">
-            <objects>
-                <viewController id="gVF-rM-TR0" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="bZ8-kL-WNo"/>
-                        <viewControllerLayoutGuide type="bottom" id="akV-YI-5XO"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="dyE-eq-hZX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="WNt-hz-jU0"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="n9t-vG-w8c" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3586" y="1418"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="Hqz-Pm-QbA">
             <objects>
                 <viewController id="GMk-um-7FV" sceneMemberID="viewController">
@@ -156,13 +112,23 @@
                     <view key="view" contentMode="scaleToFill" id="GFH-MU-wFV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tse-9k-ggI">
+                                <rect key="frame" x="52" y="169" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="b63-Tp-MuU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pCE-bq-3eb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5142" y="1275"/>
+            <point key="canvasLocation" x="3786" y="-276"/>
         </scene>
         <!--Hotels Table View Controller-->
         <scene sceneID="r29-60-2HR">

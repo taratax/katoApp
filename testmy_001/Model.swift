@@ -48,7 +48,7 @@ var myHeaders = [
 var myPicures = [
     [
         "Katowice_Spodek-_Nowa_elewacja","nospr-1","museum_001","mck-katowice-1","katowice_eu_powst_001",
-     "640px-Katowicki_rynek_04","katowice_kathedralwe_outside_001","Katowice-Park_Kosciuszki_pomnik","jewish_cemetery_002",
+     "640px-Katowicki_rynek_04","katedra-out-1","Katowice-Park_Kosciuszki_pomnik","jewish_cemetery_002",
      "szyb_wilson_out_001","Katowice-Muzeum_Historii_Katowic_out_001","museum_guitar_in_001","Katowice_Punkt_44"
     ]
     ,
@@ -72,7 +72,7 @@ var myPicures = [
 ]
 var detailPic = [
  [
-    "spodek_outside_002","bartekbarczyk_orkiestra_4","muzeum_nowe_25","Biuro_kogresowe_001","katowice_the_city_powst_001","Katowicki_rynek_02","cathedral_outside_002","Kosciol_sw_Michala_Katowice_001","jewish_cemetery_001","szyb_wilson_in_002","Historia_katowic_pokoj_dziecinny",
+    "spodek_outside_002","nospr-2","muzeum_nowe_25","Biuro_kogresowe_001","katowice_the_city_powst_001","Katowicki_rynek_02","katedra-out-2","Kosciol_sw_Michala_Katowice_001","jewish_cemetery_001","szyb_wilson_in_002","Historia_katowic_pokoj_dziecinny",
     "museum_guitar_in_002","Cinemas_katowice_001"
  ]
 ,
