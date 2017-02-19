@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "museum_guitar_in_002.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "museum_guitar_in_001@2x.png",
       "scale" : "2x"
     },
     {

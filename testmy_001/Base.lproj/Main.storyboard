@@ -13,16 +13,16 @@
         <scene sceneID="oDH-5E-upL">
             <objects>
                 <tableViewController id="Uvo-jW-p7X" customClass="ViewController" customModule="KATO" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="213" sectionHeaderHeight="28" sectionFooterHeight="28" id="hWS-vK-rMv">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="250" sectionHeaderHeight="28" sectionFooterHeight="28" id="hWS-vK-rMv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="seeCell" rowHeight="213" id="tuc-yq-b3k" customClass="seeViewCell" customModule="KATO" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="213"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="seeCell" rowHeight="250" id="tuc-yq-b3k" customClass="seeViewCell" customModule="KATO" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="250"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" tag="1" contentMode="center" tableViewCell="tuc-yq-b3k" id="R0i-Hc-OaC">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="213"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VKp-ay-7NK">
@@ -33,7 +33,7 @@
                                             <color key="textColor" red="0.9999160171" green="1" blue="0.99987202880000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z0v-fv-f9Y">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z0v-fv-f9Y">
                                             <rect key="frame" x="8" y="41" width="240" height="300"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
@@ -60,7 +60,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bmB-DT-3HX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1971.0144927536232" y="-276.35869565217394"/>
+            <point key="canvasLocation" x="1969.5652173913045" y="-277.17391304347831"/>
         </scene>
         <!--GenericVC-->
         <scene sceneID="cr2-sP-bcK">
@@ -101,10 +101,10 @@
             </objects>
             <point key="canvasLocation" x="2885.507246376812" y="-276.35869565217394"/>
         </scene>
-        <!--View Controller-->
+        <!--AboutVC-->
         <scene sceneID="Hqz-Pm-QbA">
             <objects>
-                <viewController id="GMk-um-7FV" sceneMemberID="viewController">
+                <viewController id="GMk-um-7FV" customClass="AboutVC" customModule="KATO" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oIy-WA-Le7"/>
                         <viewControllerLayoutGuide type="bottom" id="bda-ly-cCl"/>
@@ -113,60 +113,88 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tse-9k-ggI">
-                                <rect key="frame" x="52" y="169" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" indicatorStyle="white" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tse-9k-ggI">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <color key="backgroundColor" red="0.9999160171" green="1" blue="0.99987202880000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">This software is provided “AS IS”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non infringement .
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an an action of contract, tort or otherwise, arising from out of or in connection with the software or the use or other dealings in the software.
+
+Uses material from the wikipedia:
+https://commons.wikimedia.org/wiki/File:Kościół_św._Michała_Park_Kościuszki_Katowice.JPG
+https://pl.wikipedia.org/wiki/Park_im._Tadeusza_Kościuszki_w_Katowicach
+https://commons.wikimedia.org/wiki/File:Katowice_-_Muzeum_Historii_Katowic.jpg
+https://commons.wikimedia.org/wiki/File:Katowice_Punkt_44.jpg
+
+“Biala malpa” pub image by David Tejer
+browariat image inside used from http://www.beerpubs.pl/p1437,Browariat
+Cinema interior image used from http://www.europa-cinemas.org/en/Network/Network-Cinemas/(cinema_id)/3565/(cinema)/Rialto
+
+Other sources:
+http://www.hotele.pl/en/en/katowice/twoj-hostel/
+http://www.beerpubs.pl/p1437,Browariat
+http://www.europa-cinemas.org/en/Network/Network-Cinemas/(cinema_id)/3565/(cinema)/Rialto
+http://katowicedailyphoto.blogspot.com/2007/07/golden-donkey.html
+http://katowice.pjb.co.uk/eating-places/
+http://www.mhk.katowice.pl/
+http://www.beerpubs.pl/p1151,Hospoda
+http://www.hotele.pl/en/en/katowice/twoj-hostel/
+http://www.twojhostel.pl/katowice/galeria-katowice
+https://www.bedandbreakfast.eu/bed-and-breakfast/katowice/hostel-kattowitz/1192940/
+http://hoteldoradca.pl/park-hotel-diament-katowice-katowice/pictures
+https://www.inyourpocket.com/katowice/park-hotel-diament-katowice_33279v
+http://www.hotel-katowice.pl
+http://www.mojekonferencje.pl/katowice/hotel-senator
+http://www.urlopwpolsce.pl/katowice/quality-silesian-hotel-katowice/
+https://www.booking.com/hotel/pl/angelo-katowice.en-gb.html?aid=356997;label=gog235jc-hotel-XX-pl-angeloNkatowice-unspec-pl-com-L%3Aen-O%3AosSx-B%3Asafari-N%3AXX-S%3Abo-U%3AXX-H%3As;sid=285c77912254fe9225dea97e544f459f;dist=0&amp;sb_price_type=total&amp;type=total&amp;
+http://www.hotel-katowice.pl
+https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g274768-d286407-i111077373-Hotel_Katowice-Katowice_Silesia_Province_Southern_Poland.html
+https://pl.tripadvisor.com/Hotel_Review-g274768-d1550606-Reviews-Hotel_Senator-Katowice_Silesia_Province_Southern_Poland.html
+www.hotel-senator.com
+http://www.silesianhotel.pl
+https://www.inyourpocket.com/katowice/hurry-curry_110298v
+http://chochlapolapach.pl/hurry-curry-czyli-jak-wzbudzic-usmiech/
+www.sztetl.og
+http://slask.onet.pl/koleje-slaskie-dzis-i-jutro-bezplatny-przejazd/2qd38dt
+tripadvisor.com
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="AvenirNext-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="www.szybwilson.org">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="light"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" lookupSuggestion="YES"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.111838593" green="0.70705825099999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.111838593" green="0.70705825099999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tse-9k-ggI" firstAttribute="leading" secondItem="GFH-MU-wFV" secondAttribute="leading" id="NA2-qW-4WO"/>
+                            <constraint firstItem="tse-9k-ggI" firstAttribute="top" secondItem="oIy-WA-Le7" secondAttribute="bottom" id="cPJ-eo-Nar"/>
+                            <constraint firstItem="bda-ly-cCl" firstAttribute="top" secondItem="tse-9k-ggI" secondAttribute="bottom" id="kPO-RO-Xuj"/>
+                            <constraint firstAttribute="trailing" secondItem="tse-9k-ggI" secondAttribute="trailing" id="pUO-GK-SNX"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="b63-Tp-MuU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pCE-bq-3eb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3786" y="-276"/>
-        </scene>
-        <!--Hotels Table View Controller-->
-        <scene sceneID="r29-60-2HR">
-            <objects>
-                <viewController id="6pD-bf-t7d" customClass="HotelsTableViewController" customModule="KATO" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="226" sectionHeaderHeight="28" sectionFooterHeight="28" id="tme-eo-bIQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="226" id="qku-6M-uaj">
-                                <rect key="frame" x="0.0" y="28" width="414" height="226"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qku-6M-uaj" id="ban-gl-gg4">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="226"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b0I-Pk-bOU">
-                                            <rect key="frame" x="15" y="15" width="376" height="32"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z3t-X8-5u0">
-                                            <rect key="frame" x="15" y="61" width="240" height="128"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        </imageView>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                    </tableView>
-                    <navigationItem key="navigationItem" id="lid-7d-MrN"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VfA-SI-2ag" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1028" y="1696"/>
+            <point key="canvasLocation" x="3274.4000000000001" y="836.13193403298362"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1cN-gW-qIe">
@@ -177,12 +205,11 @@
                     </tabBarItem>
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
-                    <navigationBar key="navigationBar" alpha="0.0" contentMode="scaleToFill" id="aMG-rI-rR0">
+                    <navigationBar key="navigationBar" opaque="NO" alpha="0.0" contentMode="scaleToFill" id="aMG-rI-rR0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="barTintColor" red="0.20392156859999999" green="0.61568627450000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.111838593" green="0.70705825099999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -322,6 +349,27 @@
             </objects>
             <point key="canvasLocation" x="1472" y="837"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="osv-1K-Ri0">
+            <objects>
+                <navigationController storyboardIdentifier="about-VC" automaticallyAdjustsScrollViewInsets="NO" id="V12-hx-JnD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3YA-uW-5nu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.111838593" green="0.70705825099999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GMk-um-7FV" kind="relationship" relationship="rootViewController" id="0LL-KH-rZm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l8k-1n-zSq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2309" y="836"/>
+        </scene>
     </scenes>
     <resources>
         <image name="eating" width="28" height="24"/>
@@ -336,6 +384,6 @@
         <image name="transport_sel" width="30" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="CRz-hW-XFj"/>
+        <segue reference="mXF-q5-Ose"/>
     </inferredMetricsTieBreakers>
 </document>

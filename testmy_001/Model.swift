@@ -11,7 +11,7 @@ var glcounter = 0
 
 var myarray = [
     [
-        "Spodek","NOSPR HQ","Silesian Museum","MCK","Silesian Insurgents' Monument","Main Square","Cathedral of Christ the King","Kosciuszko Park","The Jewish Cemetery","The Wilson Shaft Gallery","Museum of Katowice History","Guitar museum katowice","Cinemas"
+        "Spodek","NOSPR HQ","Silesian Museum","MCK","Insurgents' Monument","Main Square","Cathedral","Kosciuszko Park","The Jewish Cemetery","The Wilson Shaft Gallery","Nikiszowiec","Museum of Katowice History","Guitar museum katowice","Cinemas"
     ],
     [
         "Hotel angelo","Novotel Katowice Centrum","Hotel Katowice","Hotel Diament Katowice","Hotel Silesian","Hotel Senator","Hostel Katowice","Hostel Rynek 7","Hostel Kattowitz","Mosquito apartments"
@@ -20,7 +20,7 @@ var myarray = [
         "moodro bistro & cafe","Tatiana","Via Toscana","Hurry Curry","Kafej","Patio","Len Arte","Golden donkey"
     ],
     [
-        "Mariacka St.","Browariat","Spencer Pub","Club Garage","Rajzefiber","Biala malpa","Hospoda","Maly Kredens"
+        "Mariacka St.","Browariat","Spencer Pub","Upojeni bar","Rajzefiber","Biala malpa","Hospoda","Maly Kredens"
     ],
     [
         "Taxi","KZK GOP","Silesian Interurbans","Upper Silesian Railway","Pyrzowice Airport"
@@ -30,8 +30,8 @@ var myarray = [
 var myHeaders = [
     [
         "Visit Spodek","Visit Orchestra","Visit Museum","Visit Convention Bureau",
-        "Silesian Insurgents' Monument","Visit Main Square","Visit Cathedral of Christ the King",
-        "Visit Kosciuszko Park","The Jewish Cemetery","The Wilson Shaft","Museum of Katowice History",
+        "Insurgents' Monument","Visit Main Square","Cathedral of Christ the King",
+        "Visit Kosciuszko Park","The Jewish Cemetery","The Wilson Shaft","Nikiszowiec","Museum of Katowice History",
         "Guitar museum katowice","Cinemas"
     ]
     ,
@@ -41,7 +41,7 @@ var myHeaders = [
         "moodro bistro & cafe","Tatiana restaurant","Via Toscana","Hurry Curry","Kafej","Patio restaurant","Len Arte - Italian Pizza","Golden donkey"
         
     ],
-    ["Mariacka","Browariat","Spencer","Club Garage","Rajzefiber (Travel Fever)","Biala malpa","Hospoda","Maly Kredens"],
+    ["Mariacka","Browariat","Spencer","Upojeni","Rajzefiber (Travel Fever)","Biala malpa","Hospoda","Maly Kredens"],
     ["Taxi","KZK GOP","Silesian Interurbans","Upper Silesian Railway","Pyrzowice Airport"]
 ]
 
@@ -49,7 +49,7 @@ var myPicures = [
     [
         "Katowice_Spodek-_Nowa_elewacja","nospr-1","museum_001","mck-katowice-1","katowice_eu_powst_001",
      "640px-Katowicki_rynek_04","katedra-out-1","Katowice-Park_Kosciuszki_pomnik","jewish_cemetery_002",
-     "szyb_wilson_out_001","Katowice-Muzeum_Historii_Katowic_out_001","museum_guitar_in_001","Katowice_Punkt_44"
+     "szyb_wilson_out_001","Nikisz-out-1","Katowice-Muzeum_Historii_Katowic_out_001","museum_guitar_in_001","Katowice_Punkt_44"
     ]
     ,
     [
@@ -61,7 +61,7 @@ var myPicures = [
     ]
     ,
     [
-        "Mariacka_outside_001","browariat7_inside_001","PUB_SPENCER_inside_001","club_garage_inside_001","rajzefiber_inside_001",
+        "Mariacka_outside_001","browariat7_inside_001","PUB_SPENCER_inside_001","upojeni_out_001","rajzefiber_inside_001",
         "biala_malpa_out_001","Hospoda_in_001","szkic_link_maly_kredens_05"
     ]
     ,
@@ -72,7 +72,7 @@ var myPicures = [
 ]
 var detailPic = [
  [
-    "spodek_outside_002","nospr-2","muzeum_nowe_25","Biuro_kogresowe_001","katowice_the_city_powst_001","Katowicki_rynek_02","katedra-out-2","Kosciol_sw_Michala_Katowice_001","jewish_cemetery_001","szyb_wilson_in_002","Historia_katowic_pokoj_dziecinny",
+    "spodek_outside_002","nospr-2","muzeum_nowe_25","Biuro_kogresowe_001","katowice_the_city_powst_001","Katowicki_rynek_02","katedra-out-2","Kosciol_sw_Michala_Katowice_001","jewish_cemetery_001","szyb_wilson_in_002","Nikisz-out-2","Historia_katowic_pokoj_dziecinny",
     "museum_guitar_in_002","Cinemas_katowice_001"
  ]
 ,
@@ -86,7 +86,7 @@ var detailPic = [
  ]
 ,
  [
-    "mariacka_outside_002","browariat_inside_002","the-spencer-pub_inside_002","club_garage_iniside_002","rajzefiber_inside_002",
+    "mariacka_outside_002","browariat_inside_002","the-spencer-pub_inside_002","upojeni_in_001","rajzefiber_inside_002",
     "biala_malpa_in_001","Hospoda_in_002","maly_kredens_in_001"
  ]
 ,
@@ -105,14 +105,13 @@ var colorsSchm  = [
  ["r":0.56, "g":0.33, "b":0.76, "a":1.0],
  ["r":1.00,"g":0.72,"b":0.25,"a":1.0]
 ]
-
+let themeColor = UIColor(red:0.11, green:0.71, blue:1.00, alpha:1.0)
 
 let plistPath = Bundle.main.path(forResource: "katoApp",ofType: "plist")
 let txtdictionary = NSDictionary(contentsOfFile: plistPath!)
 
 
 let textArray = txtdictionary?["Text"] as? [[String]]
-//let chapterImagesArray = dictionary?["ChapterImages"] as? NSArray
-//let title = dictionary?["Title"] as? String
+
 
 

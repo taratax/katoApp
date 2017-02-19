@@ -22,13 +22,17 @@ class GenericVC: UIViewController {
         setContent()
         setupLayout()
         
+        
     }
 
+   
+    
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         txtView.isScrollEnabled = true
         // txtView.scrollRangeToVisible(NSRange(location:0, length:0))
+        print (" h \(imgView.frame.size.height) w \(imgView.frame.size.width)")
     }
  
 //    override func viewWillAppear(_ animated: Bool) {
@@ -73,7 +77,7 @@ class GenericVC: UIViewController {
   
         txtView.topAnchor.constraint(equalTo: imgView.bottomAnchor).isActive = true
         txtView.bottomAnchor.constraint(equalTo: view.layoutMarginsGuide.bottomAnchor).isActive = true
-        txtView.heightAnchor.constraint(equalTo: view.layoutMarginsGuide.heightAnchor, multiplier: 0.50).isActive = true
+        txtView.heightAnchor.constraint(equalTo: view.layoutMarginsGuide.heightAnchor, multiplier: 0.45).isActive = true
         
         txtView.leadingAnchor.constraint(equalTo: view.readableContentGuide.leadingAnchor).isActive = true
         txtView.trailingAnchor.constraint(equalTo: view.readableContentGuide.trailingAnchor).isActive = true

@@ -2,7 +2,6 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Moodro-Cafe-Restaurant-w-nowym-Muzeum-Slaskim-w-Ka.jpg",
       "scale" : "1x"
     },
     {
@@ -11,6 +10,7 @@
     },
     {
       "idiom" : "universal",
+      "filename" : "Katowice_Spodek-_Nowa_elewacja@3x.png",
       "scale" : "3x"
     }
   ],

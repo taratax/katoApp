@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A314741D1E227806003EC1DD /* katoApp.plist in Resources */ = {isa = PBXBuildFile; fileRef = A314741C1E227806003EC1DD /* katoApp.plist */; };
+		A32827A81E5841DC00AACBB1 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32827A71E5841DC00AACBB1 /* AboutVC.swift */; };
 		A35635341E21475F00B91C9F /* configureUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35635331E21475F00B91C9F /* configureUI.swift */; };
 		A35635381E2148BD00B91C9F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35635371E2148BD00B91C9F /* Model.swift */; };
 		A356353A1E2174B600B91C9F /* GenericVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35635391E2174B600B91C9F /* GenericVC.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		A314741C1E227806003EC1DD /* katoApp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = katoApp.plist; sourceTree = "<group>"; };
+		A32827A71E5841DC00AACBB1 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
 		A35635331E21475F00B91C9F /* configureUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = configureUI.swift; path = testmy_001/configureUI.swift; sourceTree = "<group>"; };
 		A35635371E2148BD00B91C9F /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = testmy_001/Model.swift; sourceTree = "<group>"; };
 		A35635391E2174B600B91C9F /* GenericVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenericVC.swift; path = testmy_001/GenericVC.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				A352492F1E2807A400C99242 /* Model */,
 				A352492E1E28076B00C99242 /* Controllers */,
 				A36E215C1E144D3800C56018 /* AppDelegate.swift */,
+				A32827A71E5841DC00AACBB1 /* AboutVC.swift */,
 				A314741C1E227806003EC1DD /* katoApp.plist */,
 				A36E21631E144D3800C56018 /* Assets.xcassets */,
 				A36E21681E144D3800C56018 /* Info.plist */,
@@ -197,6 +200,7 @@
 				A35635381E2148BD00B91C9F /* Model.swift in Sources */,
 				A369689C1E146CDE0075CB9E /* seeViewCell.swift in Sources */,
 				A36E215F1E144D3800C56018 /* ViewController.swift in Sources */,
+				A32827A81E5841DC00AACBB1 /* AboutVC.swift in Sources */,
 				A39288F71E33E12F003EF2A7 /* GenericNavigation.swift in Sources */,
 				A35635341E21475F00B91C9F /* configureUI.swift in Sources */,
 				A36E215D1E144D3800C56018 /* AppDelegate.swift in Sources */,

@@ -42,7 +42,11 @@ class ViewController: UITableViewController {
         
         if (tabNum == 0) {
         composeStatusBar(title: "KATO" , vc: self)
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "About", style: .plain, target: self, action: #selector(about))
+            let btn = UIBarButtonItem(title: "About", style: .plain, target: self, action: #selector(about))
+            btn.tintColor = UIColor.white
+          
+            navigationItem.leftBarButtonItem = btn
+            // navigationItem.leftBarButtonItem = UIBarButtonItem(title: "About", style: .plain, target: self, action: #selector(about))
             
         } else if (tabNum == 1) {
         composeStatusBar(title: "Hotels" , vc: self)
@@ -55,7 +59,7 @@ class ViewController: UITableViewController {
         }
         
         //http://stackoverflow.com/documentation/ios/378/change-status-bar-color#t=201701112222358193757
-        navigationController?.navigationBar.barStyle =  .blackTranslucent // this will give you a white status bar
+        navigationController?.navigationBar.barStyle = .default // this will give you a white status bar
 
         
            view.backgroundColor = UIColor(red:0.20, green:0.62, blue:1.00, alpha:1.0)
@@ -64,6 +68,10 @@ class ViewController: UITableViewController {
     }
     
     func about() {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier :"about-VC") as! UIViewController
+        self.present(viewController, animated: true)
         print ("about !!!")
     }
     
@@ -78,10 +86,18 @@ class ViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as? seeViewCell
-        cell?.selectionStyle = .none
-        
-        cell?.setCell(indexPath.row,tabNum: tabNum)
+        //cell?.selectionStyle = .none
+        //cell?.setCell(indexPath.row,tabNum: tabNum)
         return cell!
+    }
+    
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        
+        let cell2 = cell as? seeViewCell
+        cell2?.selectionStyle = .none
+        cell2?.setCell(indexPath.row,tabNum: tabNum)
+        print("h: \(cell2?.frame.size.height) w: \(cell2?.frame.size.width)")
+
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {

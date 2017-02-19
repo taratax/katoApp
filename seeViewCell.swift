@@ -27,8 +27,8 @@ class seeViewCell: UITableViewCell {
     func setCell(_ index: Int, tabNum: Int) {
      
         super.updateConstraints()
-        var aspectRatio: CGFloat = 1
-        
+        // var aspectRatio: CGFloat = 1
+        contentView.frame.size.height = 300
         myimageView.image = UIImage(named: myPicures[tabNum][index])
         titleLbl.text = myHeaders[tabNum][index]
         let myIndex = index % 4
