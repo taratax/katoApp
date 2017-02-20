@@ -59,7 +59,7 @@ class ViewController: UITableViewController {
         }
         
         //http://stackoverflow.com/documentation/ios/378/change-status-bar-color#t=201701112222358193757
-        navigationController?.navigationBar.barStyle = .default // this will give you a white status bar
+        navigationController?.navigationBar.barStyle = .black // this will give you a white status bar
 
         
            view.backgroundColor = UIColor(red:0.20, green:0.62, blue:1.00, alpha:1.0)
@@ -72,7 +72,7 @@ class ViewController: UITableViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let viewController = storyboard.instantiateViewController(withIdentifier :"about-VC") as! UIViewController
         self.present(viewController, animated: true)
-        print ("about !!!")
+        //print ("about !!!")
     }
     
 

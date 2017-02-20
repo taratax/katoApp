@@ -113,67 +113,1117 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" indicatorStyle="white" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tse-9k-ggI">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" indicatorStyle="black" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tse-9k-ggI">
                                 <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                                 <color key="backgroundColor" red="0.9999160171" green="1" blue="0.99987202880000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">This software is provided “AS IS”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non infringement .
-</string>
+                                        <mutableString key="content">This software is provided “AS IS”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non infringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an an action of contract, tort or otherwise, arising from out of or in connection with the software or the use or other dealings in the software.
+
+</mutableString>
                                         <attributes>
                                             <font key="NSFont" size="18" name="AvenirNext-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Biala malpa pub outside picture:">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="AvenirNext-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an an action of contract, tort or otherwise, arising from out of or in connection with the software or the use or other dealings in the software.
-
-Uses material from the wikipedia:
-https://commons.wikimedia.org/wiki/File:Kościół_św._Michała_Park_Kościuszki_Katowice.JPG
-https://pl.wikipedia.org/wiki/Park_im._Tadeusza_Kościuszki_w_Katowicach
-https://commons.wikimedia.org/wiki/File:Katowice_-_Muzeum_Historii_Katowic.jpg
-https://commons.wikimedia.org/wiki/File:Katowice_Punkt_44.jpg
-
-“Biala malpa” pub image by David Tejer
-browariat image inside used from http://www.beerpubs.pl/p1437,Browariat
-Cinema interior image used from http://www.europa-cinemas.org/en/Network/Network-Cinemas/(cinema_id)/3565/(cinema)/Rialto
-
-Other sources:
-http://www.hotele.pl/en/en/katowice/twoj-hostel/
-http://www.beerpubs.pl/p1437,Browariat
-http://www.europa-cinemas.org/en/Network/Network-Cinemas/(cinema_id)/3565/(cinema)/Rialto
-http://katowicedailyphoto.blogspot.com/2007/07/golden-donkey.html
-http://katowice.pjb.co.uk/eating-places/
-http://www.mhk.katowice.pl/
-http://www.beerpubs.pl/p1151,Hospoda
-http://www.hotele.pl/en/en/katowice/twoj-hostel/
-http://www.twojhostel.pl/katowice/galeria-katowice
-https://www.bedandbreakfast.eu/bed-and-breakfast/katowice/hostel-kattowitz/1192940/
-http://hoteldoradca.pl/park-hotel-diament-katowice-katowice/pictures
-https://www.inyourpocket.com/katowice/park-hotel-diament-katowice_33279v
-http://www.hotel-katowice.pl
-http://www.mojekonferencje.pl/katowice/hotel-senator
-http://www.urlopwpolsce.pl/katowice/quality-silesian-hotel-katowice/
-https://www.booking.com/hotel/pl/angelo-katowice.en-gb.html?aid=356997;label=gog235jc-hotel-XX-pl-angeloNkatowice-unspec-pl-com-L%3Aen-O%3AosSx-B%3Asafari-N%3AXX-S%3Abo-U%3AXX-H%3As;sid=285c77912254fe9225dea97e544f459f;dist=0&amp;sb_price_type=total&amp;type=total&amp;
-http://www.hotel-katowice.pl
-https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g274768-d286407-i111077373-Hotel_Katowice-Katowice_Silesia_Province_Southern_Poland.html
-https://pl.tripadvisor.com/Hotel_Review-g274768-d1550606-Reviews-Hotel_Senator-Katowice_Silesia_Province_Southern_Poland.html
-www.hotel-senator.com
-http://www.silesianhotel.pl
-https://www.inyourpocket.com/katowice/hurry-curry_110298v
-http://chochlapolapach.pl/hurry-curry-czyli-jak-wzbudzic-usmiech/
-www.sztetl.og
-http://slask.onet.pl/koleje-slaskie-dzis-i-jutro-bezplatny-przejazd/2qd38dt
-tripadvisor.com
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="AvenirNext-DemiBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Author: ">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="AvenirNext-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="David Tajer">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-DemiBold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
 </string>
                                         <attributes>
                                             <font key="NSFont" size="18" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="www.szybwilson.org">
+                                    <fragment content="Main square pictures By Julia Szymańczyk ">
                                         <attributes>
-                                            <font key="NSFont" size="18" name="AvenirNext-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28.299999237060547">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56.650001525878906">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="85">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="113.34999847412109">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="141.69999694824219">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="170.05000305175781">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="198.39999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="226.75">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="255.10000610351562">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="283.45001220703125">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="311.79998779296875">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="340.14999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+Own work, CC BY-SA 4.0 
+https://commons.wikimedia.org/w/index.php?curid=49348520
+https://commons.wikimedia.org/w/index.php?curid=49348518
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28.299999237060547">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56.650001525878906">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="85">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="113.34999847412109">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="141.69999694824219">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="170.05000305175781">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="198.39999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="226.75">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="255.10000610351562">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="283.45001220703125">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="311.79998779296875">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="340.14999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Jewish cemetery pictures ">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28.299999237060547">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56.650001525878906">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="85">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="113.34999847412109">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="141.69999694824219">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="170.05000305175781">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="198.39999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="226.75">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="255.10000610351562">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="283.45001220703125">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="311.79998779296875">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="340.14999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+www.szetl.org
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28.299999237060547">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56.650001525878906">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="85">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="113.34999847412109">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="141.69999694824219">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="170.05000305175781">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="198.39999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="226.75">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="255.10000610351562">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="283.45001220703125">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="311.79998779296875">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="340.14999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Wilson Shaft pictures ">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28.299999237060547">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56.650001525878906">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="85">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="113.34999847412109">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="141.69999694824219">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="170.05000305175781">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="198.39999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="226.75">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="255.10000610351562">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="283.45001220703125">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="311.79998779296875">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="340.14999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28.299999237060547">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56.650001525878906">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="85">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="113.34999847412109">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="141.69999694824219">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="170.05000305175781">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="198.39999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="226.75">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="255.10000610351562">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="283.45001220703125">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="311.79998779296875">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="340.14999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">www.szybwilson.org
+
+</string>
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Museum of Katowice History">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28.299999237060547">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56.650001525878906">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="85">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="113.34999847412109">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="141.69999694824219">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="170.05000305175781">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="198.39999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="226.75">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="255.10000610351562">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="283.45001220703125">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="311.79998779296875">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="340.14999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+https://commons.wikimedia.org/wiki/File:Katowice_-_Muzeum_Historii_Katowic.jpg
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28.299999237060547">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56.650001525878906">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="85">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="113.34999847412109">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="141.69999694824219">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="170.05000305175781">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="198.39999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="226.75">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="255.10000610351562">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="283.45001220703125">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="311.79998779296875">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="340.14999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Guitar museum katowice pictures">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28.299999237060547">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56.650001525878906">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="85">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="113.34999847412109">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="141.69999694824219">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="170.05000305175781">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="198.39999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="226.75">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="255.10000610351562">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="283.45001220703125">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="311.79998779296875">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="340.14999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28.299999237060547">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56.650001525878906">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="85">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="113.34999847412109">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="141.69999694824219">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="170.05000305175781">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="198.39999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="226.75">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="255.10000610351562">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="283.45001220703125">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="311.79998779296875">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="340.14999389648438">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">tripadvisor.com
+
+</string>
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Katowice punkt 44 cinema picture
+</string>
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">https://commons.wikimedia.org/wiki/File:Katowice_Punkt_44.jpg
+
+</string>
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Angelo hotel pictures">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content">https://www.booking.com/hotel/pl/angelo-katowice.en-gb.html?aid=356997;label=gog235jc-hotel-XX-pl-angeloNkatowice-unspec-pl-com-L%3Aen-O%3AosSx-B%3Asafari-N%3AXX-S%3Abo-U%3AXX-H%3As;sid=285c77912254fe9225dea97e544f459f;dist=0&amp;sb_price_type=total&amp;type=total&amp;
+
+</mutableString>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="18" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Hotel Novotel pictures">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="18" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="18" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="http://businesstraveller.pl">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="ArialMT"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <url key="NSLink" string="http://businesstraveller.pl/wp-content/uploads/2011/09/hotel82-635x295.jpg"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="15" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+http://www.novotel.com/gb/hotel-3377-novotel-katowice-centrum/index.shtml
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="ArialMT"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="15" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="15" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Hotel katowice pictures">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">http://www.hotel-katowice.pl
+</string>
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Hotel diament katowice">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="https://www.inyourpocket.com/katowice/park-hotel-diament-katowice_33279v">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <url key="NSLink" string="https://www.inyourpocket.com/katowice/park-hotel-diament-katowice_33279v"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="18" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="18" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="18" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Hotel Silesian picture">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+http://katowice.fotopolska.eu/294635,foto.html
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="kodens79">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="12" name="ArialMT"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <url key="NSLink" string="http://katowice.fotopolska.eu/2968,user.html"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="12" name="ArialMT"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Free Art License">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="12" name="Arial-BoldMT"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <url key="NSLink" string="http://katowice.fotopolska.eu/Free%20Art%20License"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+IAoKA
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="12" name="ArialMT"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Hotel Senator pictures">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="12" name="ArialMT"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">https://pl.tripadvisor.com/Hotel_Review-g274768-d1550606-Reviews-Hotel_Senator-Katowice_Silesia_Province_Southern_Poland.html
+</string>
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Hostel katowice pictures">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="http://www.hotele.pl/en/en/katowice/twoj-hostel/">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <url key="NSLink" string="http://www.hotele.pl/en/en/katowice/twoj-hostel/"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="18" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="18" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Hostel Kattowitz pictures
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="18" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="https://www.bedandbreakfast.eu/bed-and-breakfast/katowice/hostel-kattowitz/1192940/">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <url key="NSLink" string="https://www.bedandbreakfast.eu/bed-and-breakfast/katowice/hostel-kattowitz/1192940/"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="18" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="18" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Mosquito apartments
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="13" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="18" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content">https://www.booking.com/hotel/pl/mosquito-silesia-apartments.en-gb.html?aid=356997;label=gog235jc-hotel-XX-pl-mosquitoNsilesiaNapartments-unspec-pl-com-L%3Aen-O%3AosSx-B%3Asafari-N%3AXX-S%3Abo-U%3AXX-H%3As;sid=285c77912254fe9225dea97e544f459f;dist=0&amp;sb_price_type=total&amp;type=total&amp;</mutableString>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="ArialMT"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <url key="NSLink">
+                                                <string key="string">https://www.booking.com/hotel/pl/mosquito-silesia-apartments.en-gb.html?aid=356997;label=gog235jc-hotel-XX-pl-mosquitoNsilesiaNapartments-unspec-pl-com-L%3Aen-O%3AosSx-B%3Asafari-N%3AXX-S%3Abo-U%3AXX-H%3As;sid=285c77912254fe9225dea97e544f459f;dist=0&amp;sb_price_type=total&amp;type=total&amp;</string>
+                                            </url>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="15" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="15" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" red="0.0" green="0.0" blue="0.93332999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>

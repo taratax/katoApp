@@ -48,7 +48,7 @@ var myHeaders = [
 var myPicures = [
     [
         "Katowice_Spodek-_Nowa_elewacja","nospr-1","museum_001","mck-katowice-1","katowice_eu_powst_001",
-     "640px-Katowicki_rynek_04","katedra-out-1","Katowice-Park_Kosciuszki_pomnik","jewish_cemetery_002",
+     "640px-Katowicki_rynek_04","katedra-out-1","Katowice-Park_Kosciuszki","jewish_cemetery_002",
      "szyb_wilson_out_001","Nikisz-out-1","Katowice-Muzeum_Historii_Katowic_out_001","museum_guitar_in_001","Katowice_Punkt_44"
     ]
     ,
