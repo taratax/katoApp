@@ -96,7 +96,8 @@ class ViewController: UITableViewController {
         let cell2 = cell as? seeViewCell
         cell2?.selectionStyle = .none
         cell2?.setCell(indexPath.row,tabNum: tabNum)
-        print("h: \(cell2?.frame.size.height) w: \(cell2?.frame.size.width)")
+        
+        //print("h: \(cell2?.frame.size.height) w: \(cell2?.frame.size.width)")
 
     }
     

@@ -329,7 +329,7 @@
 				DEVELOPMENT_TEAM = 8LWS7E47SS;
 				INFOPLIST_FILE = testmy_001/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thegabrielk.testmy-001";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thegabrielk.visitkato;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -342,7 +342,7 @@
 				DEVELOPMENT_TEAM = 8LWS7E47SS;
 				INFOPLIST_FILE = testmy_001/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thegabrielk.testmy-001";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thegabrielk.visitkato;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

@@ -24,11 +24,15 @@ class seeViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    override func prepareForReuse() {
+       
+    }
+    
     func setCell(_ index: Int, tabNum: Int) {
      
         super.updateConstraints()
         // var aspectRatio: CGFloat = 1
-        contentView.frame.size.height = 300
+        //contentView.frame.size.height = 300
         myimageView.image = UIImage(named: myPicures[tabNum][index])
         titleLbl.text = myHeaders[tabNum][index]
         let myIndex = index % 4
@@ -45,7 +49,6 @@ class seeViewCell: UITableViewCell {
         myimageView.heightAnchor.constraint(equalTo: contentView.heightAnchor, multiplier: 1.0).isActive = true
         myimageView.contentMode = UIViewContentMode.scaleToFill
         
-    
         titleLbl.translatesAutoresizingMaskIntoConstraints = false
         titleLbl.leadingAnchor.constraint(equalTo: layoutMarginsGuide.leadingAnchor, constant: 0).isActive = true
         titleLbl.trailingAnchor.constraint(equalTo: layoutMarginsGuide.trailingAnchor, constant: 0).isActive = true

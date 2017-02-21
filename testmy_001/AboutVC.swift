@@ -11,6 +11,9 @@ import UIKit
 class AboutVC: UIViewController {
 
  
+    @IBOutlet weak var textView: UITextView!
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,7 +26,11 @@ class AboutVC: UIViewController {
 
        navigationController?.navigationBar.barStyle =  .blackTranslucent 
         // Do any additional setup after loading the view.
-        view.backgroundColor = UIColor(red:0.20, green:0.62, blue:1.00, alpha:1.0)
+        // view.backgroundColor = UIColor(red:0.20, green:0.62, blue:1.00, alpha:1.0)
+        //  textView.backgroundColor =  UIColor(red: CGFloat(colorsSchm[2]["r"]!), green: CGFloat(colorsSchm[2]["g"]!),
+        //                                    blue: CGFloat(colorsSchm[2]["b"]!), alpha: CGFloat(colorsSchm[2]["a"]!))
+        
+      
     }
 
     func backAction () {
