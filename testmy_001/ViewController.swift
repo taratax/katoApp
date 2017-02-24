@@ -72,7 +72,7 @@ class ViewController: UITableViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let viewController = storyboard.instantiateViewController(withIdentifier :"about-VC") as! UIViewController
         self.present(viewController, animated: true)
-        //print ("about !!!")
+        
     }
     
 
@@ -86,8 +86,7 @@ class ViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as? seeViewCell
-        //cell?.selectionStyle = .none
-        //cell?.setCell(indexPath.row,tabNum: tabNum)
+        
         return cell!
     }
     
@@ -97,8 +96,6 @@ class ViewController: UITableViewController {
         cell2?.selectionStyle = .none
         cell2?.setCell(indexPath.row,tabNum: tabNum)
         
-        //print("h: \(cell2?.frame.size.height) w: \(cell2?.frame.size.width)")
-
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {

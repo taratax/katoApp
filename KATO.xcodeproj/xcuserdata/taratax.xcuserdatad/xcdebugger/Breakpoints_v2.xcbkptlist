@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "testmy_001/GenericVC.swift"
-            timestampString = "509145766.085726"
+            timestampString = "509668168.476655"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "setupLayout()"
             landmarkType = "7">
          </BreakpointContent>

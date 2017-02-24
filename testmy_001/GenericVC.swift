@@ -31,8 +31,7 @@ class GenericVC: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         txtView.isScrollEnabled = true
-        // txtView.scrollRangeToVisible(NSRange(location:0, length:0))
-        print (" h \(imgView.frame.size.height) w \(imgView.frame.size.width)")
+
     }
  
 //    override func viewWillAppear(_ animated: Bool) {
@@ -104,8 +103,8 @@ class GenericVC: UIViewController {
         
         
         txtView.isScrollEnabled = false
-        // print("helllooooo:  tabNum \(tabNum) pctIdx \(pctIdx)")
-        let text = (textArray?[tabNum][pctIdx])! //as! String
+        
+        let text = (textArray?[tabNum][pctIdx])!
         txtView.text = "\(text)"
     }
 }
