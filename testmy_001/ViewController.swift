@@ -41,7 +41,7 @@ class ViewController: UITableViewController {
        
         
         if (tabNum == 0) {
-        composeStatusBar(title: "KATO" , vc: self)
+        composeStatusBar(title: "KTW" , vc: self)
             let btn = UIBarButtonItem(title: "About", style: .plain, target: self, action: #selector(about))
             btn.tintColor = UIColor.white
           

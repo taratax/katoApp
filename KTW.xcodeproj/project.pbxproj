@@ -28,7 +28,7 @@
 		A35635371E2148BD00B91C9F /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = testmy_001/Model.swift; sourceTree = "<group>"; };
 		A35635391E2174B600B91C9F /* GenericVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenericVC.swift; path = testmy_001/GenericVC.swift; sourceTree = "<group>"; };
 		A369689B1E146CDE0075CB9E /* seeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = seeViewCell.swift; sourceTree = "<group>"; };
-		A36E21591E144D3800C56018 /* KATO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KATO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36E21591E144D3800C56018 /* KTW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36E215C1E144D3800C56018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A36E215E1E144D3800C56018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = testmy_001/ViewController.swift; sourceTree = "<group>"; };
 		A36E21611E144D3800C56018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		A36E215A1E144D3800C56018 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A36E21591E144D3800C56018 /* KATO.app */,
+				A36E21591E144D3800C56018 /* KTW.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A36E21581E144D3700C56018 /* KATO */ = {
+		A36E21581E144D3700C56018 /* KTW */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A36E216B1E144D3800C56018 /* Build configuration list for PBXNativeTarget "KATO" */;
+			buildConfigurationList = A36E216B1E144D3800C56018 /* Build configuration list for PBXNativeTarget "KTW" */;
 			buildPhases = (
 				A36E21551E144D3700C56018 /* Sources */,
 				A36E21561E144D3700C56018 /* Frameworks */,
@@ -137,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = KATO;
+			name = KTW;
 			productName = testmy_001;
-			productReference = A36E21591E144D3800C56018 /* KATO.app */;
+			productReference = A36E21591E144D3800C56018 /* KTW.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +159,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A36E21541E144D3700C56018 /* Build configuration list for PBXProject "KATO" */;
+			buildConfigurationList = A36E21541E144D3700C56018 /* Build configuration list for PBXProject "KTW" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -172,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A36E21581E144D3700C56018 /* KATO */,
+				A36E21581E144D3700C56018 /* KTW */,
 			);
 		};
 /* End PBXProject section */
@@ -351,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A36E21541E144D3700C56018 /* Build configuration list for PBXProject "KATO" */ = {
+		A36E21541E144D3700C56018 /* Build configuration list for PBXProject "KTW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A36E21691E144D3800C56018 /* Debug */,
@@ -360,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A36E216B1E144D3800C56018 /* Build configuration list for PBXNativeTarget "KATO" */ = {
+		A36E216B1E144D3800C56018 /* Build configuration list for PBXNativeTarget "KTW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A36E216C1E144D3800C56018 /* Debug */,
