@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "angelo-hotel-katowice.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

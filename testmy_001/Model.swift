@@ -20,7 +20,7 @@ var myarray = [
         "moodro bistro & cafe","Tatiana","Via Toscana","Hurry Curry","Kafej","Patio","Len Arte","Golden donkey"
     ],
     [
-        "Mariacka St.","Browariat","Spencer Pub","Upojeni bar","Rajzefiber","Biala malpa","Hospoda","Maly Kredens"
+        "Mariacka St.","Browariat","Upojeni bar","Rajzefiber","Biala malpa","Hospoda","Maly Kredens"
     ],
     [
         "Taxi","KZK GOP","Silesian Interurbans","Upper Silesian Railway","Pyrzowice Airport"
@@ -41,7 +41,7 @@ var myHeaders = [
         "moodro bistro & cafe","Tatiana restaurant","Via Toscana","Hurry Curry","Kafej","Patio restaurant","Len Arte - Italian Pizza","Golden donkey"
         
     ],
-    ["Mariacka","Browariat","Spencer","Upojeni","Rajzefiber (Travel Fever)","Biala malpa","Hospoda","Maly Kredens"],
+    ["Mariacka","Browariat","Upojeni","Rajzefiber (Travel Fever)","Biala malpa","Hospoda","Maly Kredens"],
     ["Taxi","KZK GOP","Silesian Interurbans","Upper Silesian Railway","Pyrzowice Airport"]
 ]
 
@@ -61,7 +61,7 @@ var myPicures = [
     ]
     ,
     [
-        "Mariacka_outside_001","browariat7_inside_001","PUB_SPENCER_inside_001","upojeni_out_001","rajzefiber_inside_001",
+        "Mariacka_outside_001","browariat7_inside_001","upojeni_out_001","rajzefiber_inside_001",
         "biala_malpa_out_001","Hospoda_in_001","szkic_link_maly_kredens_05"
     ]
     ,
@@ -86,7 +86,7 @@ var detailPic = [
  ]
 ,
  [
-    "mariacka_outside_002","browariat_inside_002","the-spencer-pub_inside_002","upojeni_in_001","rajzefiber_inside_002",
+    "mariacka_outside_002","browariat_inside_002","upojeni_in_001","rajzefiber_inside_002",
     "biala_malpa_in_001","Hospoda_in_002","maly_kredens_in_001"
  ]
 ,

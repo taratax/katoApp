@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lb9-2E-c22">
-    <device id="retina5_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lb9-2E-c22">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,12 +12,12 @@
             <objects>
                 <tableViewController id="Uvo-jW-p7X" customClass="ViewController" customModule="KTW" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="250" sectionHeaderHeight="28" sectionFooterHeight="28" id="hWS-vK-rMv">
-                        <rect key="frame" x="0.0" y="64" width="414" height="623"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="seeCell" rowHeight="250" id="tuc-yq-b3k" customClass="seeViewCell" customModule="KTW" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="250"/>
+                                <rect key="frame" x="0.0" y="50" width="414" height="250"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" tag="1" contentMode="center" tableViewCell="tuc-yq-b3k" id="R0i-Hc-OaC">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
@@ -71,7 +69,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ETG-U3-MOk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="j19-sR-XAR">
-                        <rect key="frame" x="0.0" y="64" width="414" height="623"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" directionalLockEnabled="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVw-be-OJU">
@@ -86,7 +84,7 @@
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2tX-Fk-vN3">
-                                <rect key="frame" x="38" y="51" width="347" height="315"/>
+                                <rect key="frame" x="38" y="59" width="347" height="315"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -110,7 +108,7 @@
                         <viewControllerLayoutGuide type="bottom" id="bda-ly-cCl"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="GFH-MU-wFV">
-                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" indicatorStyle="black" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tse-9k-ggI">
@@ -1323,17 +1321,18 @@ Cg
             </objects>
             <point key="canvasLocation" x="3274.4000000000001" y="836.13193403298362"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--visit-->
         <scene sceneID="1cN-gW-qIe">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YfF-hz-QxX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="see" selectedImage="see_sel" id="bUm-A6-Sqd">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YfF-hz-QxX" customClass="SeeViewController" customModule="KTW" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="visit" image="see" selectedImage="see" id="bUm-A6-Sqd">
                         <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <navigationBar key="navigationBar" opaque="NO" alpha="0.0" contentMode="scaleToFill" translucent="NO" id="aMG-rI-rR0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="barTintColor" red="0.111838593" green="0.70705825099999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1347,19 +1346,28 @@ Cg
             </objects>
             <point key="canvasLocation" x="410" y="-302"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Custom Tab Bar Controller-->
         <scene sceneID="Yxs-eY-Yev">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="lb9-2E-c22" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="lb9-2E-c22" customClass="CustomTabBarController" customModule="KTW" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="8ZK-AR-at4">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" semanticContentAttribute="spatial" itemPositioning="fill" id="8ZK-AR-at4">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.34850150349999998" green="0.73090642689999996" blue="0.99553054569999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="barTintColor" red="0.34850150349999998" green="0.73090642689999996" blue="0.99553054569999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.10980392156862745" green="0.70980392156862748" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.10980392156862745" green="0.70980392156862748" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.10980392156862745" green="0.70980392156862748" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.10980392160000001" green="0.70980392160000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <tabBarAppearance key="standardAppearance" backgroundEffect="regular" backgroundImageContentMode="scaleAspectFit">
+                            <color key="backgroundColor" red="0.10980392156862745" green="0.70980392156862748" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="shadowColor" red="0.10980392156862745" green="0.70980392156862748" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="selectionIndicatorTintColor" red="0.10980392160000001" green="0.70980392160000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </tabBarAppearance>
+                        <tabBarAppearance key="scrollEdgeAppearance">
+                            <color key="selectionIndicatorTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </tabBarAppearance>
                     </tabBar>
                     <connections>
                         <segue destination="YfF-hz-QxX" kind="relationship" relationship="viewControllers" id="v20-YZ-kPp"/>
@@ -1373,17 +1381,18 @@ Cg
             </objects>
             <point key="canvasLocation" x="-526" y="-301"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--hotels-->
         <scene sceneID="Bsm-2W-bzS">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xDW-Zr-sc9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="hotels" selectedImage="hotels_sel" id="OsE-gN-jg3">
+                    <tabBarItem key="tabBarItem" title="hotels" image="hotels" selectedImage="hotels" id="OsE-gN-jg3">
                         <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Iso-Zs-Bs7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.9999160171" green="1" blue="0.99987202880000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.9999160171" green="1" blue="0.99987202880000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1396,19 +1405,20 @@ Cg
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="380-dl-L4J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-683" y="470"/>
+            <point key="canvasLocation" x="-759" y="423"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--restaurants-->
         <scene sceneID="Ui1-L4-cBh">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZVK-ry-OSQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="eating" selectedImage="eating_sel" id="k2j-yp-iLD">
+                    <tabBarItem key="tabBarItem" title="restaurants" image="restaurants" selectedImage="restaurants" id="k2j-yp-iLD">
                         <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="cb4-sl-GxZ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.9999160171" green="1" blue="0.99987202880000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.9999160171" green="1" blue="0.99987202880000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1423,17 +1433,19 @@ Cg
             </objects>
             <point key="canvasLocation" x="-297" y="981"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--night life-->
         <scene sceneID="Wpf-lR-M0y">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8DK-2Z-APW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="nightlife" selectedImage="night_sel" id="0Io-1d-bFY">
+                    <tabBarItem key="tabBarItem" title="night life" image="bar" selectedImage="bar" id="0Io-1d-bFY">
                         <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="IpL-wk-lie">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.9999160171" green="1" blue="0.99987202880000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.9999160171" green="1" blue="0.99987202880000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1448,12 +1460,13 @@ Cg
             </objects>
             <point key="canvasLocation" x="661" y="837"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--transport-->
         <scene sceneID="KY3-po-bag">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="58Z-nr-2f6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="transport" selectedImage="transport" id="Geg-qH-2z8">
+                    <tabBarItem key="tabBarItem" title="transport" image="transport" selectedImage="transport" id="Geg-qH-2z8">
                         <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="transport_sel"/>
                         </userDefinedRuntimeAttributes>
@@ -1461,7 +1474,7 @@ Cg
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Yee-Fm-Nzo">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.9999160171" green="1" blue="0.99987202880000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.9999160171" green="1" blue="0.99987202880000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1482,7 +1495,7 @@ Cg
                 <navigationController storyboardIdentifier="about-VC" automaticallyAdjustsScrollViewInsets="NO" id="V12-hx-JnD" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="3YA-uW-5nu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1498,19 +1511,15 @@ Cg
             <point key="canvasLocation" x="2309" y="836"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="CRz-hW-XFj"/>
+    </inferredMetricsTieBreakers>
     <resources>
-        <image name="eating" width="28" height="24"/>
-        <image name="eating_sel" width="28" height="24"/>
-        <image name="hotels" width="30" height="25"/>
-        <image name="hotels_sel" width="30" height="25"/>
-        <image name="night_sel" width="30" height="26"/>
-        <image name="nightlife" width="30" height="26"/>
-        <image name="see" width="40" height="24"/>
-        <image name="see_sel" width="40" height="24"/>
-        <image name="transport" width="30" height="25"/>
+        <image name="bar" width="25" height="25"/>
+        <image name="hotels" width="32" height="32"/>
+        <image name="restaurants" width="25" height="25"/>
+        <image name="see" width="37.5" height="37.5"/>
+        <image name="transport" width="50" height="50"/>
         <image name="transport_sel" width="30" height="25"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="CIq-Qt-bMg"/>
-    </inferredMetricsTieBreakers>
 </document>

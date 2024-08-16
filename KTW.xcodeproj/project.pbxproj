@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A314741D1E227806003EC1DD /* katoApp.plist in Resources */ = {isa = PBXBuildFile; fileRef = A314741C1E227806003EC1DD /* katoApp.plist */; };
 		A32827A81E5841DC00AACBB1 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32827A71E5841DC00AACBB1 /* AboutVC.swift */; };
+		A336B99F2C6FEA5600D848E2 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A336B99E2C6FEA5600D848E2 /* CustomTabBarController.swift */; };
 		A35635341E21475F00B91C9F /* configureUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35635331E21475F00B91C9F /* configureUI.swift */; };
 		A35635381E2148BD00B91C9F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35635371E2148BD00B91C9F /* Model.swift */; };
 		A356353A1E2174B600B91C9F /* GenericVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35635391E2174B600B91C9F /* GenericVC.swift */; };
@@ -18,12 +19,18 @@
 		A36E21621E144D3800C56018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36E21601E144D3800C56018 /* Main.storyboard */; };
 		A36E21641E144D3800C56018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A36E21631E144D3800C56018 /* Assets.xcassets */; };
 		A39288F71E33E12F003EF2A7 /* GenericNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39288F61E33E12F003EF2A7 /* GenericNavigation.swift */; };
+		A3C785252C6FA7B70064A62B /* NighLifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C785242C6FA7B70064A62B /* NighLifeViewController.swift */; };
+		A3C785272C6FAA5D0064A62B /* TransportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C785262C6FAA5D0064A62B /* TransportViewController.swift */; };
+		A3C785292C6FB1CA0064A62B /* SeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C785282C6FB1CA0064A62B /* SeeViewController.swift */; };
+		A3C7852B2C6FB3520064A62B /* HotelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C7852A2C6FB3520064A62B /* HotelsViewController.swift */; };
+		A3C7852D2C6FB48F0064A62B /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C7852C2C6FB48F0064A62B /* RestaurantsViewController.swift */; };
 		A3D1553D2C6F5D1B00B4E035 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D1553C2C6F5D1B00B4E035 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A314741C1E227806003EC1DD /* katoApp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = katoApp.plist; sourceTree = "<group>"; };
 		A32827A71E5841DC00AACBB1 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		A336B99E2C6FEA5600D848E2 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		A35029502C6F626500422BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A35635331E21475F00B91C9F /* configureUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = configureUI.swift; path = testmy_001/configureUI.swift; sourceTree = "<group>"; };
 		A35635371E2148BD00B91C9F /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = testmy_001/Model.swift; sourceTree = "<group>"; };
@@ -35,6 +42,11 @@
 		A36E21611E144D3800C56018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A36E21631E144D3800C56018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A39288F61E33E12F003EF2A7 /* GenericNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericNavigation.swift; sourceTree = "<group>"; };
+		A3C785242C6FA7B70064A62B /* NighLifeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NighLifeViewController.swift; sourceTree = "<group>"; };
+		A3C785262C6FAA5D0064A62B /* TransportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportViewController.swift; sourceTree = "<group>"; };
+		A3C785282C6FB1CA0064A62B /* SeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeViewController.swift; sourceTree = "<group>"; };
+		A3C7852A2C6FB3520064A62B /* HotelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsViewController.swift; sourceTree = "<group>"; };
+		A3C7852C2C6FB48F0064A62B /* RestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
 		A3D1553C2C6F5D1B00B4E035 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,6 +64,12 @@
 		A352492E1E28076B00C99242 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A336B99E2C6FEA5600D848E2 /* CustomTabBarController.swift */,
+				A3C7852A2C6FB3520064A62B /* HotelsViewController.swift */,
+				A3C785242C6FA7B70064A62B /* NighLifeViewController.swift */,
+				A3C785282C6FB1CA0064A62B /* SeeViewController.swift */,
+				A3C7852C2C6FB48F0064A62B /* RestaurantsViewController.swift */,
+				A3C785262C6FAA5D0064A62B /* TransportViewController.swift */,
 				A39288F61E33E12F003EF2A7 /* GenericNavigation.swift */,
 				A36E215E1E144D3800C56018 /* ViewController.swift */,
 				A35635391E2174B600B91C9F /* GenericVC.swift */,
@@ -200,8 +218,14 @@
 				A356353A1E2174B600B91C9F /* GenericVC.swift in Sources */,
 				A35635381E2148BD00B91C9F /* Model.swift in Sources */,
 				A369689C1E146CDE0075CB9E /* seeViewCell.swift in Sources */,
+				A3C7852B2C6FB3520064A62B /* HotelsViewController.swift in Sources */,
+				A3C785252C6FA7B70064A62B /* NighLifeViewController.swift in Sources */,
+				A3C785292C6FB1CA0064A62B /* SeeViewController.swift in Sources */,
 				A36E215F1E144D3800C56018 /* ViewController.swift in Sources */,
 				A32827A81E5841DC00AACBB1 /* AboutVC.swift in Sources */,
+				A336B99F2C6FEA5600D848E2 /* CustomTabBarController.swift in Sources */,
+				A3C7852D2C6FB48F0064A62B /* RestaurantsViewController.swift in Sources */,
+				A3C785272C6FAA5D0064A62B /* TransportViewController.swift in Sources */,
 				A39288F71E33E12F003EF2A7 /* GenericNavigation.swift in Sources */,
 				A35635341E21475F00B91C9F /* configureUI.swift in Sources */,
 				A36E215D1E144D3800C56018 /* AppDelegate.swift in Sources */,
