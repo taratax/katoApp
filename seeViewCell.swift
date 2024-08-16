@@ -47,7 +47,7 @@ class seeViewCell: UITableViewCell {
         myimageView.leadingAnchor.constraint(equalTo: layoutMarginsGuide.leadingAnchor , constant: 0).isActive = true
         myimageView.trailingAnchor.constraint(equalTo: layoutMarginsGuide.trailingAnchor, constant: 0).isActive = true
         myimageView.heightAnchor.constraint(equalTo: contentView.heightAnchor, multiplier: 1.0).isActive = true
-        myimageView.contentMode = UIViewContentMode.scaleToFill
+        myimageView.contentMode = UIView.ContentMode.scaleToFill
         
         titleLbl.translatesAutoresizingMaskIntoConstraints = false
         titleLbl.leadingAnchor.constraint(equalTo: layoutMarginsGuide.leadingAnchor, constant: 0).isActive = true

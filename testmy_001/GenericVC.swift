@@ -69,7 +69,7 @@ class GenericVC: UIViewController {
         
         //imgView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.50).isActive = true
         
-        imgView.contentMode = UIViewContentMode.scaleToFill
+        imgView.contentMode = UIView.ContentMode.scaleToFill
         
         
          txtView.translatesAutoresizingMaskIntoConstraints = false
@@ -80,7 +80,7 @@ class GenericVC: UIViewController {
         
         txtView.leadingAnchor.constraint(equalTo: view.readableContentGuide.leadingAnchor).isActive = true
         txtView.trailingAnchor.constraint(equalTo: view.readableContentGuide.trailingAnchor).isActive = true
-        txtView.setContentCompressionResistancePriority(UILayoutPriorityDefaultLow, for: .vertical)
+        txtView.setContentCompressionResistancePriority(UILayoutPriority.defaultLow, for: .vertical)
         
         
 

@@ -19,7 +19,7 @@ class AboutVC: UIViewController {
         
         composeStatusBar(title: "About" , vc: self)
         let newBackButton = UIBarButtonItem(title: "Back",
-                                            style: UIBarButtonItemStyle.plain, target: self, action: #selector(AboutVC.backAction))
+                                            style: UIBarButtonItem.Style.plain, target: self, action: #selector(AboutVC.backAction))
         
      
          navigationItem.leftBarButtonItem = newBackButton
@@ -33,7 +33,7 @@ class AboutVC: UIViewController {
       
     }
 
-    func backAction () {
+    @objc func backAction () {
         dismiss(animated: true, completion: nil)
     }
     

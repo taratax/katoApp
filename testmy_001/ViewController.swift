@@ -67,7 +67,7 @@ class ViewController: UITableViewController {
         
     }
     
-    func about() {
+    @objc func about() {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let viewController = storyboard.instantiateViewController(withIdentifier :"about-VC") as! UIViewController
