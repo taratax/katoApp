@@ -57,6 +57,11 @@ class ViewController: UITableViewController {
        glcounter = glcounter + 1
        tabNum = (tabBarController?.selectedIndex)!
      
+        
+        let backButton = UIBarButtonItem()
+            backButton.title = "Back" // Replace with your desired text
+            navigationItem.backBarButtonItem = backButton
+        
         if (tabNum == 0) {
         composeStatusBar(title: "KTW" , vc: self)
             let btn = UIBarButtonItem(title: "About", style: .plain, target: self, action: #selector(about))
