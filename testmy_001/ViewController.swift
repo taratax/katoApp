@@ -27,19 +27,36 @@ class ViewController: UITableViewController {
         case nightLife
         case transport
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
+        if #available(iOS 13.0, *) {
+            let appearance = UINavigationBarAppearance()
+            appearance.configureWithDefaultBackground()
+            appearance.titleTextAttributes = [.foregroundColor: UIColor.white]  //Title color
+            appearance.backgroundColor = UIColor(red:0.20, green:0.62, blue:1.00, alpha:1.0) // Bar background color
+
+            // Customize back button color
+            appearance.backButtonAppearance.normal.titleTextAttributes = [.foregroundColor: UIColor.white] // Replace with your desired color
+
+            navigationController?.navigationBar.standardAppearance = appearance
+            navigationController?.navigationBar.scrollEdgeAppearance = appearance
+            
+            navigationController?.navigationBar.tintColor = UIColor.white // Chevron color
+        } else {
+            // Fallback for iOS versions before 13.0
+            self.navigationController?.navigationBar.tintColor = UIColor.white
+        }
+    }
+
  
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
        glcounter = glcounter + 1
-       
-        
-      
-            tabNum = (tabBarController?.selectedIndex)!
+       tabNum = (tabBarController?.selectedIndex)!
      
-    
-       
-        
         if (tabNum == 0) {
         composeStatusBar(title: "KTW" , vc: self)
             let btn = UIBarButtonItem(title: "About", style: .plain, target: self, action: #selector(about))
@@ -59,18 +76,30 @@ class ViewController: UITableViewController {
         }
         
         //http://stackoverflow.com/documentation/ios/378/change-status-bar-color#t=201701112222358193757
-        navigationController?.navigationBar.barStyle = .black // this will give you a white status bar
+//        navigationController?.navigationBar.barStyle = .black // this will give you a white status bar
 
+        if #available(iOS 11.0, *) {
+            additionalSafeAreaInsets = UIEdgeInsets.zero
+        }
         
-           view.backgroundColor = UIColor(red:0.20, green:0.62, blue:1.00, alpha:1.0)
+        if #available(iOS 15.0, *) {
+            let appearance = UINavigationBarAppearance()
+            appearance.configureWithOpaqueBackground()
+            appearance.backgroundColor = UIColor(red:0.20, green:0.62, blue:1.00, alpha:1.0)
+            navigationController?.navigationBar.standardAppearance = appearance
+            navigationController?.navigationBar.scrollEdgeAppearance = appearance
+        }
+        
+        self.navigationController?.navigationBar.isOpaque = false
+        self.navigationController?.navigationBar.barTintColor = UIColor(red:0.20, green:0.62, blue:1.00, alpha:1.0)
+        view.backgroundColor = UIColor(red:0.20, green:0.62, blue:1.00, alpha:1.0)
     
-        
     }
     
     @objc func about() {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier :"about-VC") as! UIViewController
+        let viewController = storyboard.instantiateViewController(withIdentifier :"about-VC") 
         self.present(viewController, animated: true)
         
     }
@@ -109,10 +138,8 @@ class ViewController: UITableViewController {
  
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        
         cellNum = indexPath.row
         performSegue(withIdentifier: "SpodekSeg", sender: nil)
-        
     }
     
  
@@ -125,7 +152,6 @@ class ViewController: UITableViewController {
              myVC.tabNum = tabNum
              composeStatusBar(title: myarray[tabNum][cellNum] , vc: segue.destination )
     }
-
 
  }
 }

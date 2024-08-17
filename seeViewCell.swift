@@ -29,7 +29,7 @@ class seeViewCell: UITableViewCell {
     }
     
     func setCell(_ index: Int, tabNum: Int) {
-//    print("GK setCell \(myPicures[tabNum][index])")
+
         super.updateConstraints()
 
         myimageView.image = UIImage(named: myPicures[tabNum][index])

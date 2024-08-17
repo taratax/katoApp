@@ -16,17 +16,17 @@ class SeeViewController: UINavigationController {
         // Do any additional setup after loading the view.
         
         // Set the default and selected images to use template mode
-                let originalImage = UIImage(named: "see")?.withRenderingMode(.alwaysTemplate)
-                self.tabBarItem.image = originalImage
-                self.tabBarItem.selectedImage = originalImage
+//                let originalImage = UIImage(named: "see")?.withRenderingMode(.alwaysTemplate)
+//                self.tabBarItem.image = originalImage
+//                self.tabBarItem.selectedImage = originalImage
                 
                 // Set the default and selected tint colors
 //                self.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.black], for: .normal)
 //                self.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.white], for: .selected)
                 
                 // Set the tab bar tint color for selected state
-                self.tabBarController?.tabBar.tintColor = UIColor.white  // Selected state color
-                self.tabBarController?.tabBar.unselectedItemTintColor = UIColor.black  // Unselected state color
+//                self.tabBarController?.tabBar.tintColor = UIColor.white  // Selected state color
+//                self.tabBarController?.tabBar.unselectedItemTintColor = UIColor.black  // Unselected state color
     }
     
 
